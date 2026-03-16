@@ -1,0 +1,11 @@
+Client: Thuis voor Morgen
+Challenge: Struggle to do yearly financial reports, have issues with keeping bookkeeping up to date.
+Recommendations:
+# Recommendations for Thuis voor Morgen
+
+1. **Implement monthly reconciliation checkpoints** – Assign one staff member to reconcile bank statements and accounts payable/receivable on the 5th of each month (30-minute task). This prevents backlogs and makes year-end reporting 80% complete before it begins.
+
+2. **Adopt free/low-cost nonprofit accounting software** – Migrate to platforms like Wave or GnuCash that automate transaction categorization and generate financial reports automatically, eliminating manual spreadsheet work and reducing reporting time by 60%.
+
+3. **Create a simple bookkeeping calendar template** – Document recurring tasks (invoicing, expense uploads, grant reconciliations) with assigned owners and due dates. Post visibly and review quarterly to ensure consistency and catch gaps early.
+==================================================

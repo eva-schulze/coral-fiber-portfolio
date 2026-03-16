@@ -1,0 +1,14 @@
+
+================================================================================
+Triage Report — Thuis voor Morgen
+Date: 2026-03-05 14:16
+Priority Level: CRITICAL
+Issues Found: 4
+
+Issues Requiring Immediate Attention:
+
+  - Funder deadline within 60 days — financial records must be ready
+  - No bookkeeping system — Finance operations cannot function without this
+  - Outdated or missing legal contracts — legal exposure risk
+  - GDPR compliance gap — legal and reputational risk
+================================================================================

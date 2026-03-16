@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Dashboard — Coral Fiber</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f5f7;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 1.4rem; font-weight: 600; letter-spacing: 0.02em; }
+    header span { font-size: 0.85rem; color: #a0aec0; }
+    .tagline { font-size: 0.78rem; color: #718096; margin-top: 2px; }
+
+    main { max-width: 1100px; margin: 40px auto; padding: 0 24px; }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #718096;
+      margin-bottom: 20px;
+    }
+
+    /* ── My Actions Panel ── */
+    .my-actions-panel {
+      background: white;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      margin-bottom: 32px;
+      border-left: 4px solid #1a1a2e;
+    }
+    .my-actions-panel .panel-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+    .my-actions-panel .panel-subtitle {
+      font-size: 0.78rem;
+      color: #a0aec0;
+      margin-bottom: 18px;
+    }
+    .my-action-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .my-action-row:last-child { border-bottom: none; }
+    .my-action-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot-critical { background: #e53e3e; }
+    .dot-review   { background: #d69e2e; }
+    .dot-stable   { background: #38a169; }
+
+    .my-action-text { font-size: 0.88rem; color: #2d3748; flex: 1; }
+    .my-action-client {
+      font-size: 0.75rem;
+      color: #718096;
+      background: #f4f5f7;
+      padding: 2px 8px;
+      border-radius: 99px;
+      white-space: nowrap;
+    }
+    .my-action-due {
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .due-critical { color: #c53030; }
+    .due-review   { color: #b7791f; }
+    .due-stable   { color: #38a169; }
+
+    /* ── Summary Bar ── */
+    .summary-bar {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    .summary-pill {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .summary-pill .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .pill-critical { background: #fff5f5; color: #c53030; }
+    .pill-critical .dot { background: #e53e3e; }
+    .pill-review   { background: #fffff0; color: #b7791f; }
+    .pill-review   .dot { background: #d69e2e; }
+    .pill-stable   { background: #f0fff4; color: #276749; }
+    .pill-stable   .dot { background: #38a169; }
+
+    /* ── Client Cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border-top: 4px solid #e2e8f0;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+    .card.critical { border-top-color: #e53e3e; }
+    .card.urgent   { border-top-color: #dd6b20; }
+    .card.review   { border-top-color: #d69e2e; }
+    .card.stable   { border-top-color: #38a169; }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .client-name { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; line-height: 1.3; }
+
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+    .badge.critical { background: #fff5f5; color: #c53030; }
+    .badge.urgent   { background: #fffaf0; color: #c05621; }
+    .badge.review   { background: #fffff0; color: #b7791f; }
+    .badge.stable   { background: #f0fff4; color: #276749; }
+
+    .score-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .score-label { font-size: 0.78rem; color: #718096; white-space: nowrap; }
+    .score-bar-track {
+      flex: 1;
+      height: 8px;
+      background: #edf2f7;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .score-bar-fill { height: 100%; border-radius: 99px; }
+    .card.critical .score-bar-fill { background: #e53e3e; }
+    .card.urgent   .score-bar-fill { background: #dd6b20; }
+    .card.review   .score-bar-fill { background: #d69e2e; }
+    .card.stable   .score-bar-fill { background: #38a169; }
+    .score-number { font-size: 0.85rem; font-weight: 700; color: #2d3748; white-space: nowrap; }
+
+    .subsection-title {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #a0aec0;
+      margin-bottom: 10px;
+    }
+
+    .issues-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .issues-list li {
+      font-size: 0.85rem;
+      color: #4a5568;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      line-height: 1.4;
+    }
+    .issues-list li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+    .card.critical .issues-list li::before { background: #e53e3e; }
+    .card.urgent   .issues-list li::before { background: #dd6b20; }
+    .card.review   .issues-list li::before { background: #d69e2e; }
+    .card.stable   .issues-list li::before { background: #38a169; }
+    .no-issues { font-size: 0.85rem; color: #68d391; font-style: italic; }
+
+    /* ── Actions Table ── */
+    .divider {
+      border: none;
+      border-top: 1px solid #edf2f7;
+      margin: 16px 0;
+    }
+
+    .actions-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .action-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.82rem;
+    }
+    .action-text { flex: 1; color: #2d3748; line-height: 1.4; }
+    .action-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      flex-shrink: 0;
+    }
+    .action-owner {
+      font-size: 0.72rem;
+      color: #718096;
+      background: #f4f5f7;
+      padding: 2px 7px;
+      border-radius: 99px;
+      white-space: nowrap;
+    }
+    .action-owner.mine {
+      background: #ebf4ff;
+      color: #2b6cb0;
+      font-weight: 600;
+    }
+    .action-due {
+      font-size: 0.72rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .card.critical .action-due { color: #c53030; }
+    .card.review   .action-due { color: #b7791f; }
+    .card.stable   .action-due { color: #38a169; }
+
+    footer {
+      text-align: center;
+      padding: 40px 24px 24px;
+      font-size: 0.75rem;
+      color: #a0aec0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Coral Fiber</h1>
+      <div class="tagline">We clear the water. You clean the world.</div>
+    </div>
+    <span>Client Dashboard — March 5, 2026</span>
+  </header>
+
+  <main>
+
+    <!-- My Actions -->
+    <div class="my-actions-panel">
+      <div class="panel-title">My Actions</div>
+      <div class="panel-subtitle">Filtered for: Customer Success</div>
+
+      <div class="my-action-row">
+        <div class="my-action-dot dot-critical"></div>
+        <div class="my-action-text">Prepare funder report structure</div>
+        <div class="my-action-client">Shelter the Sharks</div>
+        <div class="my-action-due due-critical">Due in 5 days</div>
+      </div>
+      <div class="my-action-row">
+        <div class="my-action-dot dot-review"></div>
+        <div class="my-action-text">Asana workspace setup</div>
+        <div class="my-action-client">Nurture the Narwhals</div>
+        <div class="my-action-due due-review">Due in 10 days</div>
+      </div>
+      <div class="my-action-row">
+        <div class="my-action-dot dot-stable"></div>
+        <div class="my-action-text">Quarterly check-in call</div>
+        <div class="my-action-client">Guard the Giraffes</div>
+        <div class="my-action-due due-stable">Due in 30 days</div>
+      </div>
+    </div>
+
+    <!-- Summary Bar -->
+    <div class="summary-bar">
+      <div class="summary-pill pill-critical"><span class="dot"></span> 1 Critical</div>
+      <div class="summary-pill pill-review"><span class="dot"></span> 1 Review</div>
+      <div class="summary-pill pill-stable"><span class="dot"></span> 1 Stable</div>
+    </div>
+
+    <div class="section-title">Active Clients — 3 organizations</div>
+
+    <div class="cards">
+
+      <!-- Client 1 -->
+      <div class="card critical">
+        <div class="card-header">
+          <div class="client-name">Shelter the Sharks</div>
+          <span class="badge critical">Critical</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Health score</span>
+          <div class="score-bar-track">
+            <div class="score-bar-fill" style="width: 39%"></div>
+          </div>
+          <span class="score-number">45 / 115</span>
+        </div>
+        <div class="subsection-title">Issues requiring attention</div>
+        <ul class="issues-list">
+          <li>No bookkeeping system in place</li>
+          <li>Funder deadline in 60 days</li>
+          <li>Outdated contracts</li>
+        </ul>
+        <hr class="divider">
+        <div class="subsection-title">Open Actions</div>
+        <div class="actions-list">
+          <div class="action-row">
+            <div class="action-text">Set up Moneybird bookkeeping system</div>
+            <div class="action-meta">
+              <span class="action-owner">Finance Lead</span>
+              <span class="action-due">Due in 7 days</span>
+            </div>
+          </div>
+          <div class="action-row">
+            <div class="action-text">Review and update all contracts</div>
+            <div class="action-meta">
+              <span class="action-owner">Legal Lead</span>
+              <span class="action-due">Due in 14 days</span>
+            </div>
+          </div>
+          <div class="action-row">
+            <div class="action-text">Prepare funder report structure</div>
+            <div class="action-meta">
+              <span class="action-owner mine">Customer Success</span>
+              <span class="action-due">Due in 5 days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client 2 -->
+      <div class="card review">
+        <div class="card-header">
+          <div class="client-name">Nurture the Narwhals</div>
+          <span class="badge review">Review</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Health score</span>
+          <div class="score-bar-track">
+            <div class="score-bar-fill" style="width: 68%"></div>
+          </div>
+          <span class="score-number">78 / 115</span>
+        </div>
+        <div class="subsection-title">Issues requiring attention</div>
+        <ul class="issues-list">
+          <li>No project management tool in place</li>
+        </ul>
+        <hr class="divider">
+        <div class="subsection-title">Open Actions</div>
+        <div class="actions-list">
+          <div class="action-row">
+            <div class="action-text">Asana workspace setup</div>
+            <div class="action-meta">
+              <span class="action-owner mine">Customer Success</span>
+              <span class="action-due">Due in 10 days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client 3 -->
+      <div class="card stable">
+        <div class="card-header">
+          <div class="client-name">Guard the Giraffes</div>
+          <span class="badge stable">Stable</span>
+        </div>
+        <div class="score-row">
+          <span class="score-label">Health score</span>
+          <div class="score-bar-track">
+            <div class="score-bar-fill" style="width: 83%"></div>
+          </div>
+          <span class="score-number">95 / 115</span>
+        </div>
+        <div class="subsection-title">Issues requiring attention</div>
+        <ul class="issues-list">
+          <li class="no-issues">No critical issues — operations on track.</li>
+        </ul>
+        <hr class="divider">
+        <div class="subsection-title">Open Actions</div>
+        <div class="actions-list">
+          <div class="action-row">
+            <div class="action-text">Quarterly check-in call</div>
+            <div class="action-meta">
+              <span class="action-owner mine">Customer Success</span>
+              <span class="action-due">Due in 30 days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    Coral Fiber — Internal Use Only &nbsp;|&nbsp; eva-schulze.com
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+MORAL FABRIC — NEW CLIENT ONBOARDING QUESTIONNAIRE
+====================================================
+Welcome! This questionnaire helps us understand your organization so we can
+hit the ground running. Please answer as thoroughly as you can.
+
+------------------------------------------------------------
+SECTION 1: ORGANIZATION BASICS
+------------------------------------------------------------
+
+1. What is the name of your organization?
+
+2. What is your mission in one or two sentences?
+
+3. How long have you been operating?
+
+4. What is your current annual budget (approximate range)?
+   [ ] Under $100K
+   [ ] $100K – $500K
+   [ ] $500K – $1M
+   [ ] $1M – $5M
+   [ ] Over $5M
+
+5. Where are you based, and do you operate in multiple regions or countries?
+
+------------------------------------------------------------
+SECTION 2: TEAM SIZE & STRUCTURE
+------------------------------------------------------------
+
+6. How many full-time staff do you currently have?
+
+7. How many part-time staff or contractors?
+
+8. Do you have any volunteers? If so, roughly how many?
+
+9. Do you currently have any dedicated operations staff (e.g., Finance Manager,
+   HR Lead, IT support)? If yes, please describe their roles.
+
+10. Who is the primary decision-maker for operations in your organization?
+
+------------------------------------------------------------
+SECTION 3: CURRENT OPERATIONS CHALLENGES
+------------------------------------------------------------
+
+11. How would you describe the current state of your operations overall?
+    [ ] Chaotic / barely keeping up
+    [ ] Functional but inefficient
+    [ ] Mostly working, a few gaps
+    [ ] Solid, looking to optimize
+
+12. Which areas feel most broken or neglected right now? (check all that apply)
+    [ ] Finance & bookkeeping
+    [ ] Legal & compliance
+    [ ] HR & people management
+    [ ] Technology & tools
+    [ ] Strategy & planning
+    [ ] Fundraising & CRM
+    [ ] Other: _______________
+
+13. Have you worked with an external operations partner or consultant before?
+    If yes, what worked and what didn't?
+
+14. What does a "good week" look like operationally for your team?
+
+15. What does a "bad week" look like? What keeps breaking or slipping?
+
+------------------------------------------------------------
+SECTION 4: SERVICES NEEDED
+------------------------------------------------------------
+
+Please indicate your interest level for each service area:
+(1 = Not needed, 2 = Nice to have, 3 = Urgent need)
+
+FINANCE & REPORTING
+  [ ] 1  [ ] 2  [ ] 3  — Bookkeeping & financial records
+  [ ] 1  [ ] 2  [ ] 3  — Cash flow forecasting
+  [ ] 1  [ ] 2  [ ] 3  — Project & program budgeting
+  [ ] 1  [ ] 2  [ ] 3  — Annual reports & donor reporting
+
+LEGAL & COMPLIANCE
+  [ ] 1  [ ] 2  [ ] 3  — Entity setup or maintenance
+  [ ] 1  [ ] 2  [ ] 3  — Contract templates & review
+  [ ] 1  [ ] 2  [ ] 3  — Insurance management
+  [ ] 1  [ ] 2  [ ] 3  — GDPR or data compliance
+
+PEOPLE & CULTURE (HR)
+  [ ] 1  [ ] 2  [ ] 3  — Payroll processing
+  [ ] 1  [ ] 2  [ ] 3  — Recruitment & onboarding
+  [ ] 1  [ ] 2  [ ] 3  — HR policies & employee handbook
+  [ ] 1  [ ] 2  [ ] 3  — Performance reviews & feedback systems
+  [ ] 1  [ ] 2  [ ] 3  — Learning & development
+
+TECH & TOOLS
+  [ ] 1  [ ] 2  [ ] 3  — Tool stack setup & integration
+  [ ] 1  [ ] 2  [ ] 3  — Nonprofit software discounts
+  [ ] 1  [ ] 2  [ ] 3  — Hardware procurement
+  [ ] 1  [ ] 2  [ ] 3  — Security & data protection
+  [ ] 1  [ ] 2  [ ] 3  — AI literacy & adoption
+
+STRATEGY & EXECUTION
+  [ ] 1  [ ] 2  [ ] 3  — OKR or goal-setting framework
+  [ ] 1  [ ] 2  [ ] 3  — Project management setup
+  [ ] 1  [ ] 2  [ ] 3  — Reporting dashboards
+  [ ] 1  [ ] 2  [ ] 3  — Theory of Change
+
+------------------------------------------------------------
+SECTION 5: BIGGEST PAIN POINTS
+------------------------------------------------------------
+
+16. What is the single biggest operational pain point costing you the most
+    time, money, or stress right now?
+
+17. What has your team tried already to solve it? What happened?
+
+18. If Moral Fabric could fix just one thing in the first 30 days, what would
+    have the biggest impact on your mission?
+
+19. Are there any compliance deadlines, audits, or urgent issues we should
+    know about immediately?
+
+------------------------------------------------------------
+SECTION 6: TOOLS & SYSTEMS
+------------------------------------------------------------
+
+20. What tools does your team currently use? (e.g., accounting software,
+    project management, HR platform, communication tools)
+
+21. Are there tools you're locked into that you'd like to replace?
+
+22. Are there tools you love that you want to keep?
+
+------------------------------------------------------------
+SECTION 7: EXPECTATIONS & FIT
+------------------------------------------------------------
+
+23. How did you hear about Moral Fabric?
+
+24. What does success look like for your organization 12 months from now?
+
+25. Is there anything else you'd like us to know before we get started?
+
+------------------------------------------------------------
+Thank you for completing this questionnaire.
+A Moral Fabric team member will follow up within 2 business days.
+
+Questions? Reach us at: https://moralfabric.org
+------------------------------------------------------------

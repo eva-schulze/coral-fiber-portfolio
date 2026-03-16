@@ -1,0 +1,47 @@
+Moral Fabric helps nonprofits focus on their mission by handling essential back-office operations including Finance, Legal, HR, and Technology.
+
+They function as an embedded operations team — not consultants — integrating directly with your tools (Asana, Google Workspace, Slack, etc.) and taking on defined roles with clear accountabilities.
+
+SERVICES
+--------
+
+Finance & Reporting
+  - Bookkeeping, cash flow forecasting, project budgeting
+  - Organizational forecasting and annual reports
+
+Legal & Compliance
+  - Entity setup, ANBI registration, insurance management
+  - Contract templates and GDPR compliance
+
+People & Culture (HR)
+  - Payroll, onboarding, HR policies, 360 feedback
+  - Recruitment, ATS setup, learning & development
+  - Holacracy implementation
+
+Tech & Tools
+  - Tool stack setup, nonprofit software discounts
+  - Hardware procurement, AI literacy training
+  - Security testing and website building
+
+Strategy & Execution
+  - OKR implementation, project management, meeting rhythms
+  - Theory of Change writing, reporting dashboards
+  - Hierarchy of Purpose
+
+Additional Services
+  - Fundraising & CRM: grant writing, impact reporting, CRM setup
+  - Office Management: supplies, facilities, internet
+  - Event Support: venue logistics, registration, budgeting
+  - Volunteer Coordination: onboarding, shift planning, communications
+
+APPROACH
+--------
+Moral Fabric provides proven operational patterns tested across organizations,
+not invented from scratch for each client. Nonprofits stay in control and can
+reassign any role internally at any time. They also weave AI into operations
+to multiply team capacity and impact.
+
+LINKS
+-----
+Website:  https://moralfabric.org
+LinkedIn: https://www.linkedin.com/company/moral-fabric (linked from site footer)
