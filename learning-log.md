@@ -1,5 +1,17 @@
 # Learning Log
 
+## March 17, 2026 — Session 11: Automation & Recurring Operational Value
+
+**Context:** Building daily-briefing.py — a script that reads clients.json and auto-generates a dated markdown briefing.
+
+- **Automation means defining work once so it runs repeatedly without manual input** — instead of writing a new briefing every morning, daily-briefing.py does it on demand. The logic is written once; the output is always fresh.
+- **Built daily-briefing.py with three output sections** — Critical Alerts (actions due within 7 days), This Week (due within 14 days), and Full Client Status with health scores per client. The structure mirrors how a consultant actually prioritises: fire first, then near-term, then full picture.
+- **The script reads clients.json and calculates real deadlines at runtime** — using Python's `timedelta`, due dates are computed from today's date each time the script runs. The data stays static; the urgency is always current.
+- **The output file is named after today's date** — `briefing-2026-03-17.md` is generated automatically. No manual renaming, no overwriting yesterday's file. Each run produces a timestamped record.
+- **Key insight: automation transforms one-time tools into recurring operational value** — a tool you run once is useful. A tool that runs every day, consistently, without extra effort, becomes part of how the work actually gets done.
+
+---
+
 ## March 17, 2026 — Session 10: System Prompts & Specialized AI Tools
 
 **Context:** Building cf-advisor.py — a Dutch nonprofit finance advisor powered by Claude.
