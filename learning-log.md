@@ -1,5 +1,17 @@
 # Learning Log
 
+## March 17, 2026 — Session 8: Git Version Control
+
+**Context:** Returning after a few days' pause — learning Git to publish the portfolio.
+
+- **Git is version control for your project** — it tracks every change you make to files over time, so you can see what changed, when, and why. Think of it as a detailed save history that never forgets anything.
+- **Initialized a Git repository and made the first commit** — ran `git init` to start tracking the project, then committed 19 files in one go. That first commit is the baseline — everything from here is a recorded change on top of it.
+- **Pushed the portfolio to GitHub as coral-fiber-portfolio** — GitHub is the remote home for the repository, accessible from anywhere. Pushing sends your local commits to that remote so others (or interviewers) can see the work.
+- **The three core Git commands: add, commit, push** — `git add` stages the files you want to include, `git commit` saves a snapshot with a message explaining what changed, and `git push` sends it to GitHub. That sequence is the entire publish workflow for most projects.
+- **API keys must never be committed to a public repository** — once a key is in a public commit, it is exposed — even if you delete it later, the history remains. The rule is simple: keys go in environment variables or a `.env` file that is listed in `.gitignore`, never in the code itself.
+
+---
+
 ## March 5, 2026 — Session 7: Interview Prep & Portfolio Completion
 
 **Context:** Final session — completing the portfolio and preparing for the Moral Fabric interview.
