@@ -1,5 +1,18 @@
 # Learning Log
 
+## March 17, 2026 — Session 9: JSON, Dynamic Data & VS Code
+
+**Context:** Building on the dashboard — separating data from design.
+
+- **JSON is a structured data format readable by both humans and code** — it organises information using keys and values, arrays, and nested objects. A clean JSON file is easy to read, easy to edit, and easy for JavaScript to process. It has become the standard way to move data between systems on the web.
+- **Separating data from design is a core principle** — when client data lives inside HTML, every update requires opening the template and editing code. When it lives in a JSON file, anyone can update a client's score, status, or actions without touching the HTML at all. The dashboard reads from the data; the data doesn't live in the dashboard.
+- **Converted client-dashboard.html from hardcoded to dynamic** — replaced all three hardcoded client cards, the My Actions panel, and the summary bar with JavaScript that fetches `clients.json` and builds the page on load. The visual design is identical — only the source of the data changed.
+- **Chrome blocks `fetch()` for local files — Firefox doesn't** — when you open an HTML file directly from your computer (the `file://` protocol), Chrome refuses to load other local files via `fetch()` for security reasons. Firefox allows it. The fix for Chrome is VS Code Live Server, which serves files over a real local web address (`http://127.0.0.1`) so the browser treats them normally.
+- **Installed VS Code as primary code editor** — VS Code is the industry-standard editor for web and software projects. It highlights syntax, shows errors, integrates with Git, and extensions like Live Server make local development straightforward.
+- **Key insight: changing client data no longer requires HTML knowledge** — updating a score, adding an issue, or changing a deadline is now just editing a number or a line of text in `clients.json`. The separation between content and presentation is what makes a tool maintainable at scale.
+
+---
+
 ## March 17, 2026 — Session 8: Git Version Control
 
 **Context:** Returning after a few days' pause — learning Git to publish the portfolio.
