@@ -1,0 +1,68 @@
+[2026-03-17 15:08]
+Client: Shelter the Sharks
+Question: They have no bookkeeping system and a funder deadline in 45 days. What do we do?
+Response:
+**⚠️ HIGHEST PRIORITY: FUNDER DEADLINE IN 45 DAYS**
+
+This is critical. Most Dutch funders require audited or reviewed financials. Confirm immediately: (1) what financial documentation your funder requires, (2) your year-end date, and (3) whether you need external review/audit.
+
+---
+
+## Immediate Actions
+
+- **This week: Set up Moneybird** with chart of accounts aligned to RJ 650 nonprofit standards. Create separate cost centers for each program so you can report impact spending to your funder. Assign one staff member as bookkeeper (or hire a fractional accountant).
+- **Audit the last 12 months of bank/card statements** and categorize every transaction into: Program Costs, Administration, Fundraising. You'll need this reconciled before funder reporting.
+- **Contact your funder today** to confirm exact reporting requirements (full P&L? Balance sheet? Narrative impact report?) and whether they'll accept a management letter from your bookkeeper instead of external audit if you're under €100k revenue.
+
+---
+
+## 30-Day Plan
+
+- **Week 2:** Reconcile all bank accounts in Moneybird through month-end. Document any unexplained gaps or missing receipts now.
+- **Week 3:** Draft preliminary financials showing program vs. admin split. Flag any ANBI-compliance risks (e.g., if >10% admin costs appear excessive, or if you've received restricted funds but spent them on unrestricted purposes).
+- **Week 4:** Prepare funder narrative: program impact metrics, beneficiaries served, outcomes. Pair this with financial summary showing cost per beneficiary.
+- **Submit by day 42** with signed board approval.
+
+---
+
+## Risk Flags
+
+- **ANBI status at risk** if your cost allocation suggests misuse of restricted funds or excessive admin spending (>30% is typical concern). Document your allocation methodology carefully.
+- **Missing receipts/documentation** for older transactions will delay funder approval. Establish a receipt-capture process (Moneybird integrates with bank APIs) immediately.
+- **Payroll compliance gap:** If you've been paying staff without properly reporting to Belastingdienst/UWV, fix this now—funder audits flag this first.
+============================================================
+[2026-03-17 15:10]
+Client: Shelter the Sharks
+Question: What about their GDPR compliance? They collect data from homeless youth.
+Response:
+**⚠️ HIGHEST PRIORITY: SENSITIVE DATA + FUNDER DEADLINE IN 45 DAYS**
+
+Working with homeless youth data triggers heightened GDPR/AVG scrutiny. Funders (especially government or large foundations) will audit this. You must fix this *before* the financial submission.
+
+---
+
+## Immediate Actions
+
+- **Conduct a data audit this week:** Map every place you store youth data (spreadsheets, email, paper forms, social media). Identify: names, ages, addresses, health/trauma info, photos, contact details. List who has access.
+- **Create a basic Data Processing Agreement (DPA)** for any third-party tools you use (Google Workspace, Moneybird, even WhatsApp if you message beneficiaries). Without signed DPAs, you're non-compliant and liable for €7,500+ fines.
+- **Implement consent forms immediately** for all new data collection. For existing youth: retrospectively document consent or delete data you can't justify. Document this deletion in writing.
+
+---
+
+## 30-Day Plan
+
+- **Week 1-2:** Draft a Privacy Policy (in Dutch) explaining what data you collect, why, how long you keep it, and youth rights. Post it visibly.
+- **Week 2:** Audit consent—youth (or guardians) must have explicitly agreed to data use. If they haven't, stop processing that data.
+- **Week 3:** Implement basic security: encrypted file storage (SharePoint with EU residency confirmed, not Dropbox), access logs, password policies. Train staff on data handling.
+- **Week 4:** Prepare a Data Protection Impact Assessment (DPIA) summary for your funder showing you've assessed risks to vulnerable youth.
+
+---
+
+## Risk Flags
+
+- **Photo/video consent is missing:** Images of homeless youth are especially sensitive. You need explicit, documented consent for *each* use (internal reports vs. social media vs. fundraising materials). Verbal consent isn't enough.
+- **Funder rejection risk:** Dutch government funders (gemeente, provinciaal) now require GDPR compliance verification. Missing DPAs or consent will trigger funding hold or clawback.
+- **ANBI status threatened:** If your AVG violation is reported, ANBI registration can be revoked. Your funder likely has audit rights to inspect your data practices.
+
+**Next step:** Get a Dutch data protection specialist (€500–1,000 for emergency audit) *before* submitting to funder. This is cheaper than funder rejection.
+============================================================
