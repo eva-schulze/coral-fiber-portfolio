@@ -1,5 +1,17 @@
 # Learning Log
 
+## March 17, 2026 — Session 10: System Prompts & Specialized AI Tools
+
+**Context:** Building cf-advisor.py — a Dutch nonprofit finance advisor powered by Claude.
+
+- **A system prompt transforms Claude from a generic chatbot into a specialized tool** — without a system prompt, Claude answers everything from a neutral, general position. A system prompt sets the role, the knowledge base, the priorities, and the output format before the conversation even starts. The result is a tool that behaves consistently and purposefully, not a chatbot that guesses what you need.
+- **Built cf-advisor.py with a Dutch nonprofit system prompt** — the advisor recommends Moneybird over QuickBooks (appropriate for Dutch nonprofits), knows the relevant legal and regulatory context (ANBI status, AVG/GDPR, RJ 650 accounting standards, Belastingdienst reporting), and always structures responses with three sections: Immediate Actions, 30-Day Plan, and Risk Flags.
+- **Funder deadlines are hardcoded as the highest priority** — the system prompt instructs Claude to flag any funder deadline risk above everything else, because a missed grant deadline is existential for a small nonprofit. Domain-specific priorities belong in the system prompt, not left to generic AI judgement.
+- **Conversation history is maintained in a loop** — cf-advisor.py keeps a running list of all messages and passes the full history with every API call. This is what makes follow-up questions work naturally: Claude remembers what was said earlier in the session because the entire conversation is always in context.
+- **Key insight: system prompts are the difference between a generic AI tool and a specialized product** — anyone can use Claude via the web. A system prompt is what turns it into something that behaves like a domain expert with your organisation's knowledge, priorities, and communication style baked in.
+
+---
+
 ## March 17, 2026 — Session 9: JSON, Dynamic Data & VS Code
 
 **Context:** Building on the dashboard — separating data from design.
