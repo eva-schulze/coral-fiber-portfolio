@@ -1,0 +1,65 @@
+{
+  "clients": [
+    {
+      "id": "shelter-the-sharks",
+      "name": "Shelter the Sharks",
+      "score": 45,
+      "score_max": 115,
+      "status": "Critical",
+      "issues": [
+        "No bookkeeping system",
+        "Funder deadline in 60 days",
+        "Outdated contracts"
+      ],
+      "actions": [
+        {
+          "task": "Set up Moneybird bookkeeping system",
+          "owner": "Finance Lead",
+          "due_days": 7
+        },
+        {
+          "task": "Review contracts",
+          "owner": "Legal Lead",
+          "due_days": 14
+        },
+        {
+          "task": "Prepare funder report",
+          "owner": "Customer Success Lead",
+          "due_days": 5
+        }
+      ]
+    },
+    {
+      "id": "nurture-the-narwhals",
+      "name": "Nurture the Narwhals",
+      "score": 78,
+      "score_max": 115,
+      "status": "Review",
+      "issues": [
+        "No project management tool"
+      ],
+      "actions": [
+        {
+          "task": "Asana workspace setup",
+          "owner": "Customer Success Lead",
+          "due_days": 10
+        }
+      ]
+    },
+    {
+      "id": "guard-the-giraffes",
+      "name": "Guard the Giraffes",
+      "score": 95,
+      "score_max": 115,
+      "status": "Stable",
+      "issues": [],
+      "actions": [
+        {
+          "task": "Quarterly check-in call",
+          "owner": "Customer Success Lead",
+          "due_days": 30
+        }
+      ]
+    }
+  ]
+}

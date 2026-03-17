@@ -268,6 +268,25 @@
     .card.review   .action-due { color: #b7791f; }
     .card.stable   .action-due { color: #38a169; }
 
+    /* ── Error state ── */
+    .load-error {
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border-left: 4px solid #e53e3e;
+      color: #c53030;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+    .load-error strong { display: block; margin-bottom: 8px; font-size: 1rem; }
+    .load-error code {
+      background: #fff5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
     footer {
       text-align: center;
       padding: 40px 24px 24px;
@@ -287,155 +306,140 @@
   </header>
 
   <main>
-
-    <!-- My Actions -->
     <div class="my-actions-panel">
       <div class="panel-title">My Actions</div>
       <div class="panel-subtitle">Filtered for: Customer Success</div>
-
-      <div class="my-action-row">
-        <div class="my-action-dot dot-critical"></div>
-        <div class="my-action-text">Prepare funder report structure</div>
-        <div class="my-action-client">Shelter the Sharks</div>
-        <div class="my-action-due due-critical">Due in 5 days</div>
-      </div>
-      <div class="my-action-row">
-        <div class="my-action-dot dot-review"></div>
-        <div class="my-action-text">Asana workspace setup</div>
-        <div class="my-action-client">Nurture the Narwhals</div>
-        <div class="my-action-due due-review">Due in 10 days</div>
-      </div>
-      <div class="my-action-row">
-        <div class="my-action-dot dot-stable"></div>
-        <div class="my-action-text">Quarterly check-in call</div>
-        <div class="my-action-client">Guard the Giraffes</div>
-        <div class="my-action-due due-stable">Due in 30 days</div>
-      </div>
+      <div id="my-actions-list"></div>
     </div>
 
-    <!-- Summary Bar -->
-    <div class="summary-bar">
-      <div class="summary-pill pill-critical"><span class="dot"></span> 1 Critical</div>
-      <div class="summary-pill pill-review"><span class="dot"></span> 1 Review</div>
-      <div class="summary-pill pill-stable"><span class="dot"></span> 1 Stable</div>
-    </div>
+    <div id="summary-bar" class="summary-bar"></div>
 
-    <div class="section-title">Active Clients — 3 organizations</div>
+    <div id="section-title" class="section-title"></div>
 
-    <div class="cards">
-
-      <!-- Client 1 -->
-      <div class="card critical">
-        <div class="card-header">
-          <div class="client-name">Shelter the Sharks</div>
-          <span class="badge critical">Critical</span>
-        </div>
-        <div class="score-row">
-          <span class="score-label">Health score</span>
-          <div class="score-bar-track">
-            <div class="score-bar-fill" style="width: 39%"></div>
-          </div>
-          <span class="score-number">45 / 115</span>
-        </div>
-        <div class="subsection-title">Issues requiring attention</div>
-        <ul class="issues-list">
-          <li>No bookkeeping system in place</li>
-          <li>Funder deadline in 60 days</li>
-          <li>Outdated contracts</li>
-        </ul>
-        <hr class="divider">
-        <div class="subsection-title">Open Actions</div>
-        <div class="actions-list">
-          <div class="action-row">
-            <div class="action-text">Set up Moneybird bookkeeping system</div>
-            <div class="action-meta">
-              <span class="action-owner">Finance Lead</span>
-              <span class="action-due">Due in 7 days</span>
-            </div>
-          </div>
-          <div class="action-row">
-            <div class="action-text">Review and update all contracts</div>
-            <div class="action-meta">
-              <span class="action-owner">Legal Lead</span>
-              <span class="action-due">Due in 14 days</span>
-            </div>
-          </div>
-          <div class="action-row">
-            <div class="action-text">Prepare funder report structure</div>
-            <div class="action-meta">
-              <span class="action-owner mine">Customer Success</span>
-              <span class="action-due">Due in 5 days</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Client 2 -->
-      <div class="card review">
-        <div class="card-header">
-          <div class="client-name">Nurture the Narwhals</div>
-          <span class="badge review">Review</span>
-        </div>
-        <div class="score-row">
-          <span class="score-label">Health score</span>
-          <div class="score-bar-track">
-            <div class="score-bar-fill" style="width: 68%"></div>
-          </div>
-          <span class="score-number">78 / 115</span>
-        </div>
-        <div class="subsection-title">Issues requiring attention</div>
-        <ul class="issues-list">
-          <li>No project management tool in place</li>
-        </ul>
-        <hr class="divider">
-        <div class="subsection-title">Open Actions</div>
-        <div class="actions-list">
-          <div class="action-row">
-            <div class="action-text">Asana workspace setup</div>
-            <div class="action-meta">
-              <span class="action-owner mine">Customer Success</span>
-              <span class="action-due">Due in 10 days</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Client 3 -->
-      <div class="card stable">
-        <div class="card-header">
-          <div class="client-name">Guard the Giraffes</div>
-          <span class="badge stable">Stable</span>
-        </div>
-        <div class="score-row">
-          <span class="score-label">Health score</span>
-          <div class="score-bar-track">
-            <div class="score-bar-fill" style="width: 83%"></div>
-          </div>
-          <span class="score-number">95 / 115</span>
-        </div>
-        <div class="subsection-title">Issues requiring attention</div>
-        <ul class="issues-list">
-          <li class="no-issues">No critical issues — operations on track.</li>
-        </ul>
-        <hr class="divider">
-        <div class="subsection-title">Open Actions</div>
-        <div class="actions-list">
-          <div class="action-row">
-            <div class="action-text">Quarterly check-in call</div>
-            <div class="action-meta">
-              <span class="action-owner mine">Customer Success</span>
-              <span class="action-due">Due in 30 days</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <div id="cards" class="cards"></div>
   </main>
 
   <footer>
     Coral Fiber — Internal Use Only &nbsp;|&nbsp; eva-schulze.com
   </footer>
+
+  <script>
+    const MY_ROLE = 'Customer Success Lead';
+
+    function sc(status) {
+      return status.toLowerCase();
+    }
+
+    function renderMyActions(clients) {
+      // Collect all Customer Success actions across clients, sorted by urgency
+      const rows = [];
+      for (const client of clients) {
+        for (const action of client.actions) {
+          if (action.owner === MY_ROLE) {
+            rows.push({ ...action, clientName: client.name, clientStatus: client.status });
+          }
+        }
+      }
+      rows.sort((a, b) => a.due_days - b.due_days);
+
+      document.getElementById('my-actions-list').innerHTML = rows.map(r => `
+        <div class="my-action-row">
+          <div class="my-action-dot dot-${sc(r.clientStatus)}"></div>
+          <div class="my-action-text">${r.task}</div>
+          <div class="my-action-client">${r.clientName}</div>
+          <div class="my-action-due due-${sc(r.clientStatus)}">Due in ${r.due_days} days</div>
+        </div>
+      `).join('');
+    }
+
+    function renderSummaryBar(clients) {
+      const counts = {};
+      for (const client of clients) {
+        counts[client.status] = (counts[client.status] || 0) + 1;
+      }
+      const order = ['Critical', 'Urgent', 'Review', 'Stable'];
+      document.getElementById('summary-bar').innerHTML = order
+        .filter(s => counts[s])
+        .map(s => `
+          <div class="summary-pill pill-${sc(s)}">
+            <span class="dot"></span> ${counts[s]} ${s}
+          </div>
+        `).join('');
+    }
+
+    function renderCards(clients) {
+      document.getElementById('section-title').textContent =
+        `Active Clients — ${clients.length} organization${clients.length !== 1 ? 's' : ''}`;
+
+      document.getElementById('cards').innerHTML = clients.map(client => {
+        const pct = Math.round(client.score / client.score_max * 100);
+
+        const issuesHTML = client.issues.length
+          ? client.issues.map(i => `<li>${i}</li>`).join('')
+          : `<li class="no-issues">No critical issues — operations on track.</li>`;
+
+        const actionsHTML = client.actions.map(a => `
+          <div class="action-row">
+            <div class="action-text">${a.task}</div>
+            <div class="action-meta">
+              <span class="action-owner${a.owner === MY_ROLE ? ' mine' : ''}">${a.owner}</span>
+              <span class="action-due">Due in ${a.due_days} days</span>
+            </div>
+          </div>
+        `).join('');
+
+        return `
+          <div class="card ${sc(client.status)}">
+            <div class="card-header">
+              <div class="client-name">${client.name}</div>
+              <span class="badge ${sc(client.status)}">${client.status}</span>
+            </div>
+            <div class="score-row">
+              <span class="score-label">Health score</span>
+              <div class="score-bar-track">
+                <div class="score-bar-fill" style="width: ${pct}%"></div>
+              </div>
+              <span class="score-number">${client.score} / ${client.score_max}</span>
+            </div>
+            <div class="subsection-title">Issues requiring attention</div>
+            <ul class="issues-list">${issuesHTML}</ul>
+            <hr class="divider">
+            <div class="subsection-title">Open Actions</div>
+            <div class="actions-list">${actionsHTML}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderError(message) {
+      document.querySelector('main').innerHTML = `
+        <div class="load-error">
+          <strong>Could not load client data from clients.json</strong>
+          ${message}
+        </div>
+      `;
+    }
+
+    fetch('clients.json')
+      .then(r => {
+        if (!r.ok) throw new Error(`Server returned ${r.status} — make sure clients.json is in the same folder.`);
+        return r.json();
+      })
+      .then(data => {
+        renderMyActions(data.clients);
+        renderSummaryBar(data.clients);
+        renderCards(data.clients);
+      })
+      .catch(err => {
+        const isFileProtocol = location.protocol === 'file:';
+        renderError(isFileProtocol
+          ? `Chrome blocks <code>fetch()</code> for local files. Two options:<br>
+             1. Open in <strong>Firefox</strong> — works directly from file://.<br>
+             2. Use <strong>VS Code Live Server</strong> (right-click → Open with Live Server) to serve it locally in Chrome.`
+          : err.message
+        );
+      });
+  </script>
 
 </body>
 </html>
