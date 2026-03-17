@@ -1,11 +1,11 @@
 # MoralFabric — Portfolio Folder
-**Eva Schulze | Applying for Customer Success, Consulting & Product Management at Moral Fabric**
+**Eva Schulze | Applying for Customer Success, Consulting & Product Management at Coral Fiber**
 
 ---
 
 ## What this is
 
-This folder was created in a single day as a practical learning exercise. I used Claude Code — Anthropic's AI coding tool — to build a set of real consulting tools, templates, and scripts relevant to Moral Fabric's work with nonprofits. The goal was not just to learn AI tools, but to demonstrate how I think about client operations, product utility, and systematic problem-solving.
+This folder was created in a single day as a practical learning exercise. I used Claude Code — Anthropic's AI coding tool — to build a set of real consulting tools, templates, and scripts relevant to Coral Fiber's work with nonprofits. The goal was not just to learn AI tools, but to demonstrate how I think about client operations, product utility, and systematic problem-solving.
 
 Everything here was built through natural language prompting, iterative feedback, and critical review — no prior coding background required, but consulting judgment required throughout.
 
@@ -15,7 +15,7 @@ Everything here was built through natural language prompting, iterative feedback
 
 | File | Description |
 |---|---|
-| `moral-fabric-notes.txt` | Research notes on Moral Fabric's services, approach, and links, compiled from their website |
+| `coral-fiber-notes.txt` | Research notes on Coral Fiber's services, approach, and links, compiled from their website |
 | `client-onboarding.txt` | A 7-section intake questionnaire for new nonprofit clients covering ops status, services needed, and fit |
 | `client-brief-template.md` | Reusable Holacracy-style client brief template for consultants to capture key client information |
 | `client-brief-thuis-voor-morgen.md` | Filled client brief for fictional nonprofit "Thuis voor Morgen" with open questions and 30-day plan |
@@ -49,9 +49,9 @@ Everything here was built through natural language prompting, iterative feedback
 
 ---
 
-## How this relates to Moral Fabric
+## How this relates to Coral Fiber
 
-| Tool | Moral Fabric use case |
+| Tool | Coral Fiber use case |
 |---|---|
 | Client onboarding questionnaire | Standardising the intake process across all new nonprofit clients |
 | NGO Health Check | Giving consultants a fast, consistent way to assess and score operational health on a first call |
@@ -67,7 +67,7 @@ Everything here was built through natural language prompting, iterative feedback
 
 - **Connect the dashboard to real data** — replace hardcoded HTML with a simple backend (Python + JSON or a Google Sheet) so the dashboard updates dynamically as client information changes.
 - **Extend smart-advisor.py** to pull from the client brief and health check score, so recommendations are grounded in structured client data rather than free text alone.
-- **Build a pattern library** — a structured internal document cataloguing Moral Fabric's proven operational patterns (onboarding, Holacracy setup, annual report process) so they can be reused and improved across clients.
+- **Build a pattern library** — a structured internal document cataloguing Coral Fiber's proven operational patterns (onboarding, Holacracy setup, annual report process) so they can be reused and improved across clients.
 - **Add a scoring trend over time** to the health check — tracking a client's score across multiple assessments would show whether ops health is improving, which is a powerful tool for both consultant accountability and client reporting.
 - **Explore how AI can support grant writing** — one of the highest-value, most time-consuming tasks for nonprofits. A structured prompt template trained on successful grant applications could meaningfully reduce that burden.
 

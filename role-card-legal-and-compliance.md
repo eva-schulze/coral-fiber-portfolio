@@ -1,5 +1,5 @@
 # Role Card — Legal and Compliance
-**Moral Fabric — Holacracy Role Definition**
+**Coral Fiber — Holacracy Role Definition**
 
 ---
 

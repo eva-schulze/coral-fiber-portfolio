@@ -1,5 +1,5 @@
 # Role Card — People and Culture
-**Moral Fabric — Holacracy Role Definition**
+**Coral Fiber — Holacracy Role Definition**
 
 ---
 

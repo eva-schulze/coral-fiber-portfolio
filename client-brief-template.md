@@ -1,5 +1,5 @@
 # Client Brief
-**Moral Fabric — Internal Document**
+**Coral Fiber — Internal Document**
 
 ---
 
@@ -61,7 +61,7 @@
 | | Operations Lead | | Day-to-day contact |
 | | Finance Contact | | If applicable |
 
-### Moral Fabric Side
+### Coral Fiber Side
 
 | Name | Role | Responsibility |
 |---|---|---|

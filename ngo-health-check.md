@@ -1,5 +1,5 @@
 # NGO Operational Health Check
-**Moral Fabric — Consultant Tool**
+**Coral Fiber — Consultant Tool**
 *Complete during or immediately after a 30-minute client intake call.*
 
 ---
@@ -153,7 +153,7 @@
 ---
 
 ## What's Working Well — Learning Opportunities
-*⚠️ Internal only — for Moral Fabric pattern development.*
+*⚠️ Internal only — for Coral Fiber pattern development.*
 
 **Processes that are close to best practice:**
 
@@ -163,7 +163,7 @@
 
 >
 
-**Patterns worth documenting for Moral Fabric internally:**
+**Patterns worth documenting for Coral Fiber internally:**
 
 >
 
@@ -171,7 +171,7 @@
 
 ## Recommended First Actions
 
-*List the top 3 actions Moral Fabric should take in the first 30 days, based on this assessment.*
+*List the top 3 actions Coral Fiber should take in the first 30 days, based on this assessment.*
 
 | Priority | Action | Owner | Timeline |
 |---|---|---|---|

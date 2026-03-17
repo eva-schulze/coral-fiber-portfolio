@@ -1,5 +1,5 @@
 # Client Brief
-**Moral Fabric — Internal Document**
+**Coral Fiber — Internal Document**
 
 ---
 
@@ -61,7 +61,7 @@
 | TBD | Operations Lead | TBD | Day-to-day contact |
 | TBD | Finance Contact | TBD | If applicable; may not exist yet |
 
-### Moral Fabric Side
+### Coral Fiber Side
 
 | Name | Role | Responsibility |
 |---|---|---|
@@ -123,8 +123,8 @@
 | # | Question | Owner | Status |
 |---|---|---|---|
 | 1 | **Data access:** When and how can we access the existing financial data and systems needed to start work on the funder report? | Client — Executive Director | Open |
-| 2 | **Legal documents:** Has a data processing agreement (GDPR) and other required legal documents been signed yet? | Client + Moral Fabric | Open |
-| 3 | **Collaboration contract:** Has the service agreement with Moral Fabric been signed? If not, this is a blocking step — work cannot formally begin until resolved. | Client — Executive Director | Open |
+| 2 | **Legal documents:** Has a data processing agreement (GDPR) and other required legal documents been signed yet? | Client + Coral Fiber | Open |
+| 3 | **Collaboration contract:** Has the service agreement with Coral Fiber been signed? If not, this is a blocking step — work cannot formally begin until resolved. | Client — Executive Director | Open |
 | 4 | **Next steps ownership:** Who on the client side is responsible for each action in the 30-day plan? A named owner is needed for every item. | Client — to be confirmed in kickoff call | Open |
 
 ---

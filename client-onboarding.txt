@@ -1,4 +1,4 @@
-MORAL FABRIC — NEW CLIENT ONBOARDING QUESTIONNAIRE
+CORAL FIBER — NEW CLIENT ONBOARDING QUESTIONNAIRE
 ====================================================
 Welcome! This questionnaire helps us understand your organization so we can
 hit the ground running. Please answer as thoroughly as you can.
@@ -111,7 +111,7 @@ SECTION 5: BIGGEST PAIN POINTS
 
 17. What has your team tried already to solve it? What happened?
 
-18. If Moral Fabric could fix just one thing in the first 30 days, what would
+18. If Coral Fiber could fix just one thing in the first 30 days, what would
     have the biggest impact on your mission?
 
 19. Are there any compliance deadlines, audits, or urgent issues we should
@@ -132,7 +132,7 @@ SECTION 6: TOOLS & SYSTEMS
 SECTION 7: EXPECTATIONS & FIT
 ------------------------------------------------------------
 
-23. How did you hear about Moral Fabric?
+23. How did you hear about Coral Fiber?
 
 24. What does success look like for your organization 12 months from now?
 
@@ -140,7 +140,7 @@ SECTION 7: EXPECTATIONS & FIT
 
 ------------------------------------------------------------
 Thank you for completing this questionnaire.
-A Moral Fabric team member will follow up within 2 business days.
+A Coral Fiber team member will follow up within 2 business days.
 
 Questions? Reach us at: https://moralfabric.org
 ------------------------------------------------------------

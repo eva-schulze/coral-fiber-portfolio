@@ -1,5 +1,5 @@
 # Role Card
-**Moral Fabric — Holacracy Role Definition**
+**Coral Fiber — Holacracy Role Definition**
 
 ---
 

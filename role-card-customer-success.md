@@ -1,5 +1,5 @@
 # Role Card — Customer Success
-**Moral Fabric — Holacracy Role Definition**
+**Coral Fiber — Holacracy Role Definition**
 
 ---
 
@@ -7,7 +7,7 @@
 Customer Success
 
 ## Purpose
-Ensuring every nonprofit client achieves meaningful operational progress and feels genuinely supported throughout their journey with Moral Fabric.
+Ensuring every nonprofit client achieves meaningful operational progress and feels genuinely supported throughout their journey with Coral Fiber.
 
 ## Domain
 - Client relationship management and all direct client communications

@@ -1,4 +1,4 @@
-# Smart Advisor — Moral Fabric
+# Smart Advisor — Coral Fiber
 # -------------------------------------------------------
 # Setup:
 #   pip install anthropic
@@ -10,7 +10,7 @@ import os
 import anthropic
 
 print("=" * 50)
-print("  Moral Fabric — Smart Advisor")
+print("  Coral Fiber — Smart Advisor")
 print("=" * 50)
 print()
 
@@ -29,7 +29,7 @@ message = client.messages.create(
         {
             "role": "user",
             "content": (
-                f"You are an operations consultant at Moral Fabric, a nonprofit operations company. "
+                f"You are an operations consultant at Coral Fiber, a nonprofit operations company. "
                 f"A nonprofit client called '{client_name}' has the following challenge:\n\n"
                 f"{challenge}\n\n"
                 f"Give exactly 3 specific, actionable recommendations. "

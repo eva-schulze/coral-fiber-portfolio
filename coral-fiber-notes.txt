@@ -1,4 +1,4 @@
-Moral Fabric helps nonprofits focus on their mission by handling essential back-office operations including Finance, Legal, HR, and Technology.
+Coral Fiber helps nonprofits focus on their mission by handling essential back-office operations including Finance, Legal, HR, and Technology.
 
 They function as an embedded operations team — not consultants — integrating directly with your tools (Asana, Google Workspace, Slack, etc.) and taking on defined roles with clear accountabilities.
 
@@ -36,7 +36,7 @@ Additional Services
 
 APPROACH
 --------
-Moral Fabric provides proven operational patterns tested across organizations,
+Coral Fiber provides proven operational patterns tested across organizations,
 not invented from scratch for each client. Nonprofits stay in control and can
 reassign any role internally at any time. They also weave AI into operations
 to multiply team capacity and impact.
@@ -44,4 +44,4 @@ to multiply team capacity and impact.
 LINKS
 -----
 Website:  https://moralfabric.org
-LinkedIn: https://www.linkedin.com/company/moral-fabric (linked from site footer)
+LinkedIn: https://www.linkedin.com/company/coral-fiber (linked from site footer)

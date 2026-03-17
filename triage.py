@@ -1,7 +1,7 @@
 from datetime import datetime
 
 print("=" * 50)
-print("  Moral Fabric — Client Triage Tool")
+print("  Coral Fiber — Client Triage Tool")
 print("=" * 50)
 print()
 
