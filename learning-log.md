@@ -118,7 +118,7 @@
 - **A good prompt has 4 ingredients: Role, Context, Task, Format** — being explicit about who Claude should act as, what the situation is, what you need done, and how the output should look leads to dramatically better results.
 - **Iterative prompting is the real skill** — you rarely get the perfect output in one shot. The workflow is: start broad, review, then refine with follow-up instructions (e.g. "make it shorter", "add a section", "change the tone").
 - **Templates are multipliers** — building a reusable client brief template means every future client onboarding starts from a strong foundation, not a blank page. Good consulting thinking lives in the structure, not just the content.
-- **Applied practice: Thuis voor Morgen** — filled in the client brief template for a fictional Amsterdam nonprofit, translating messy real-world details (Excel chaos, outdated contracts, 60-day funder deadline) into a structured, actionable document.
+- **Applied practice: Shelter the Sharks** — filled in the client brief template for a fictional Rotterdam nonprofit, translating messy real-world details (Excel chaos, outdated contracts, 60-day funder deadline) into a structured, actionable document.
 - **Consulting instinct: surface what's missing** — added a "Missing Information & Open Questions" section with a status table, which reflects a core consulting habit: identifying blockers and assigning ownership before work begins.
 
 ---
@@ -128,7 +128,7 @@
 **Context:** Connecting consulting practice to a potential Product Owner role.
 
 - **Product Management at Coral Fiber in three steps** — (1) collect client feedback: which Finance features are missing? (2) identify patterns: what do all NGO clients do the same way? (3) build it into the product so it scales. That's the full PM loop in one observation.
-- **Finance has high relevance as a starting point** — it's the most urgent pain point for most nonprofit clients (as seen with Thuis voor Morgen), which makes it the highest-signal area for discovering what to build next.
+- **Finance has high relevance as a starting point** — it's the most urgent pain point for most nonprofit clients (as seen with Shelter the Sharks), which makes it the highest-signal area for discovering what to build next.
 - **The PO role bridges consulting and product** — working directly with clients surfaces real needs; the PO job is to turn those needs into patterns, and those patterns into scalable features. Client work is not separate from product work — it *feeds* it.
 - **Patterns = proven ways of doing things** — a pattern is a repeatable process that has been tested across multiple organizations. Coral Fiber describes it as: *"Tested across organizations, not invented for yours."* Examples: the client onboarding process, how to introduce Holacracy, how to produce an annual report. Think of it as a best-practice workflow, not just a document.
 - **Policies = clear rules about what is required, allowed, or forbidden** — not a process, but a boundary. Examples: "All contracts must be reviewed before signing", "New staff get tool access in week 1", "Financial reports are due by the 5th of each month." Think of it like internal company guidelines (HR policy, travel expenses policy, GDPR policy).

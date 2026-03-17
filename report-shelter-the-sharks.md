@@ -1,4 +1,4 @@
-# Client Report — Thuis voor Morgen
+# Client Report — Shelter the Sharks
 **Coral Fiber — Internal Document**
 *Generated: March 05, 2026*
 
@@ -8,7 +8,7 @@
 
 | Field | Details |
 |---|---|
-| Organization Name | Thuis voor Morgen |
+| Organization Name | Shelter the Sharks |
 | Team Size | 8 staff |
 | Report Date | March 05, 2026 |
 

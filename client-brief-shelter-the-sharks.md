@@ -7,12 +7,12 @@
 
 | Field | Details |
 |---|---|
-| Organization Name | Thuis voor Morgen |
+| Organization Name | Shelter the Sharks |
 | Website | TBD |
-| Location | Amsterdam, Netherlands |
+| Location | Rotterdam, Netherlands |
 | Founded | TBD |
 | Annual Budget | €300,000 |
-| Mission Statement | Supporting homeless youth in Amsterdam through education, housing guidance, and long-term stability programs. |
+| Mission Statement | Rescuing and rehabilitating sharks and other marine wildlife along the Dutch coast through research, advocacy, and public education. |
 
 ---
 
@@ -105,7 +105,7 @@
 
 **What does success look like at 12 months?**
 
-> Thuis voor Morgen operates with a clean, audit-ready financial system. Legal exposure is resolved. The team can focus fully on supporting homeless youth without operational fires distracting leadership.
+> Shelter the Sharks operates with a clean, audit-ready financial system. Legal exposure is resolved. The team can focus fully on their marine wildlife mission without operational fires distracting leadership.
 
 **Key metrics to track:**
 
@@ -131,7 +131,7 @@
 
 ## Notes & Additional Context
 
-> Thuis voor Morgen serves a vulnerable population (homeless youth) — operational failures like a missed funder deadline could directly impact program funding and the people they serve. Speed and reliability are essential. Handle with care and urgency.
+> Shelter the Sharks depends heavily on grant funding for their rescue and rehabilitation programs — operational failures like a missed funder deadline could directly impact program continuity and the wildlife they protect. Speed and reliability are essential. Handle with care and urgency.
 
 ---
 

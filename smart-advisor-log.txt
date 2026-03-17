@@ -1,7 +1,7 @@
-Client: Thuis voor Morgen
+Client: Shelter the Sharks
 Challenge: Struggle to do yearly financial reports, have issues with keeping bookkeeping up to date.
 Recommendations:
-# Recommendations for Thuis voor Morgen
+# Recommendations for Shelter the Sharks
 
 1. **Implement monthly reconciliation checkpoints** – Assign one staff member to reconcile bank statements and accounts payable/receivable on the 5th of each month (30-minute task). This prevents backlogs and makes year-end reporting 80% complete before it begins.
 

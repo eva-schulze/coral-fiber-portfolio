@@ -18,7 +18,7 @@ Everything here was built through natural language prompting, iterative feedback
 | `coral-fiber-notes.txt` | Research notes on Coral Fiber's services, approach, and links, compiled from their website |
 | `client-onboarding.txt` | A 7-section intake questionnaire for new nonprofit clients covering ops status, services needed, and fit |
 | `client-brief-template.md` | Reusable Holacracy-style client brief template for consultants to capture key client information |
-| `client-brief-thuis-voor-morgen.md` | Filled client brief for fictional nonprofit "Thuis voor Morgen" with open questions and 30-day plan |
+| `client-brief-shelter-the-sharks.md` | Filled client brief for fictional nonprofit "Shelter the Sharks" with open questions and 30-day plan |
 | `ngo-health-check.md` | 115-point operational health check tool across Finance, Legal, HR, Tech, and Cultural Fit |
 | `generate-report.py` | Python script that asks 5 intake questions and auto-generates a markdown client summary report |
 | `triage.py` | Python triage tool: 6 yes/no questions → priority level (Critical / Urgent / Review / Stable) + log |
